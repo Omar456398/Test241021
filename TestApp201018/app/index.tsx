@@ -36,7 +36,6 @@ const Splash = () => {
   useEffect(() => {
     let timeOut1 = setTimeout(() => {
       setPage(1);
-    router.replace('/home')
     }, 2000);
     return () => clearTimeout(timeOut1);
   }, []);
